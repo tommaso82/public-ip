@@ -62,6 +62,7 @@ import {publicIpv6} from 'public-ip';
 
 await publicIpv6({
 	fallbackUrls: [
+		'https://mioip.info',
 		'https://ifconfig.co/ip'
 	]
 });
